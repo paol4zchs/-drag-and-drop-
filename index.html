@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+<center>
+<h2>Drag and Drop</h2>
+<p>Drag the image back and forth between the two div elements.</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="./img/filesp.png" draggable="true" ondragstart="drag(event)" id="drag1" width="120" height="90">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img src="./img/sesi.jpg" draggable="true" ondragstart="drag2(event)" id="drag2" width="120" height="90">
+</div>
+
+<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img src="./img/senai.png" draggable="true" ondragstart="drag3(event)" id="drag3"width="120" height="90">
+</div>
+
+<h3>Arrume as imagens de acordo com as descrições</h3>
+<div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>atende indústrias e trabalhadores em gestão da Segurança e na promoção da saúde e educação dos trabalhadores, seus dependentes e comunidade.</p>
+<div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>é referência nacional no apoio à tecnologia e inovação em empresas industriais. Há 8 décadas, oferta cursos de iniciação profissional, graduação e pós-graduação tecnológica.</p>
+
+<div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>é a maior entidade de classe da indústria brasileira. Representa cerca de 130 mil indústrias de diversos setores, de todos os portes e das mais diferentes cadeias produtivas, distribuídas em 131 sindicatos patronais.</p>
+
+</center>
+</body>
+</html>
+
